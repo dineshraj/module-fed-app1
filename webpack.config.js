@@ -35,7 +35,7 @@ module.exports = {
       library: { type: "var", name: "app1" },
       filename: "remoteEntry.js",
       exposes: {
-        simple: "./src/simple"
+        './simple': "./src/simple"
       }
       // shared: ["react", "react-dom", "react-router-dom"],
     }),
